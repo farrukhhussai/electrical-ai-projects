@@ -1,0 +1,19 @@
+db,circuit,description,load_kw,pf,phases,length_m,insulation,ambient_c,grouped_circuits,type,demand_factor
+MDB,F01,SMDB-Ground Floor,85,0.85,3,35,XLPE,45,3,power,0.8
+MDB,F02,SMDB-First Floor,72,0.85,3,48,XLPE,45,3,power,0.8
+MDB,F03,Chiller-01,110,0.88,3,60,XLPE,45,2,motor,1.0
+MDB,F04,Chiller-02,110,0.88,3,65,XLPE,45,2,motor,1.0
+MDB,F05,Lift Panel,22,0.8,3,40,XLPE,45,1,motor,1.0
+MDB,F06,Fire Pump (Electric),45,0.85,3,55,XLPE,45,1,motor,1.0
+MDB,F07,AHU-01,18.5,0.85,3,30,PVC,40,4,motor,1.0
+MDB,F08,Water Transfer Pumps,7.5,0.82,3,25,PVC,40,4,motor,1.0
+SMDB-GF,C01,Lighting Zone A,2.4,0.95,1,32,PVC,40,6,lighting,0.9
+SMDB-GF,C02,Lighting Zone B,2.1,0.95,1,38,PVC,40,6,lighting,0.9
+SMDB-GF,C03,Small Power Ring 1,3.0,0.9,1,28,PVC,40,6,power,0.6
+SMDB-GF,C04,Small Power Ring 2,3.0,0.9,1,34,PVC,40,6,power,0.6
+SMDB-GF,C05,Split AC Units,9.0,0.85,3,22,PVC,40,4,motor,0.9
+SMDB-GF,C06,Server Room UPS,15,0.9,3,18,XLPE,40,2,power,1.0
+SMDB-FF,C01,Lighting Zone C,2.8,0.95,1,45,PVC,40,6,lighting,0.9
+SMDB-FF,C02,Kitchen Equipment,12,0.95,3,26,PVC,40,4,power,0.7
+SMDB-FF,C03,Small Power Ring 3,3.0,0.9,1,40,PVC,40,6,power,0.6
+SMDB-FF,C04,Water Heaters,6.0,1.0,1,30,PVC,40,4,power,0.8
